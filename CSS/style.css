@@ -44,3 +44,7 @@ z-index: 10;
   background-position: center top;
   overflow: hidden;
 }
+.artist {
+  position: relative;
+  background-position: right;
+}
