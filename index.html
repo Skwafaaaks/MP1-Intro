@@ -1,193 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="" href="">
-    <title>Noblesse</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <link rel="icon" href="Img/Logo/favicon1.ico">
+    <link rel="stylesheet" href="./css/lightbox.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <title>Noblesse Tattoo</title>
   </head>
-<body>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-      <div class="container">
+  <body id="home">
+    <!-- Navbar and hero section -->
+    <header class="hero">
+      <div id="navbar" class="navbar top">
+        <h1 class="logo">
           <a class="navbar-brand" href="#page-top"><img src="Img/Logo/favicon02.ico" alt="..." /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-              <i class="fas fa-bars ms-1"></i>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                  <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#artist">Artist</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#booknow">Book Now</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-              </ul>
-          </div>
+        </h1>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#style">Styles</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#artist">Artist</a></li>
+            <li><a href="#book">Book</a></li>
+          </ul>
+        </nav>
       </div>
-  </nav>
-  <div class="image"></div>
-     <!-- Gallery Grid-->
-     <section class="page-section bg-light" id="gallery">
-      <div class="container">
-          <div class="text-center">
-              <h2 class="section-heading text-uppercase">Gallery</h2>
-              <h3 class="section-subheading text-muted">Here are some examples</h3>
-          </div>
-          <div class="row">
-              <div class="col-lg-4 col-sm-6 mb-4">
-                  <!-- Gallery item 1-->
-                  <div class="gallery-item">
-                          <div class="gallery-hover">
-                          </div>
-                          <img class="img-fluid" src="Img/Designs/Design1.jpg" alt="..." />
-                      </a>
-                      <div class="gallery-caption">
-                          <div class="gallery-caption-heading">OnePiece</div>
-                          <div class="gallery-caption-subheading text-muted">Yamato</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 mb-4">
-                  <!-- gallery item 2-->
-                  <div class="gallery-item">
-                          <div class="gallery-hover">
-                          </div>
-                          <img class="img-fluid" src="Img/Designs/Design 3.jpg" alt="..." />
-                      </a>
-                      <div class="gallery-caption">
-                          <div class="gallery-caption-heading">Mafia</div>
-                          <div class="gallery-caption-subheading text-muted">Woman</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 mb-4">
-                  <!-- gallery item 3-->
-                  <div class="gallery-item">
-                          <div class="gallery-hover">
-                          </div>
-                          <img class="img-fluid" src="Img/Designs/Design2.jpg" alt="..." />
-                      </a>
-                      <div class="gallery-caption">
-                          <div class="gallery-caption-heading">Hitokiri</div>
-                          <div class="gallery-caption-subheading text-muted">Battousai</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                  <!-- gallery item 4-->
-                  <div class="gallery-item">
-                          <div class="gallery-hover">
-                          </div>
-                          <img class="img-fluid" src="Img/Designs/Design4.jpg" alt="..." />
-                      </a>
-                      <div class="gallery-caption">
-                          <div class="gallery-caption-heading">Gods</div>
-                          <div class="gallery-caption-subheading text-muted">Olympia</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                  <!-- gallery item 5-->
-                  <div class="gallery-item">
-                          <div class="gallery-hover">
-                          </div>
-                          <img class="img-fluid" src="Img/Designs/Design5.jpg" alt="..." />
-                      </a>
-                      <div class="gallery-caption">
-                          <div class="gallery-caption-heading">Minimalist</div>
-                          <div class="gallery-caption-subheading text-muted">Ancient</div>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-4 col-sm-6">
-                  <!-- gallery item 6-->
-                  <div class="gallery-item">
-                          <div class="gallery-hover">
-                          </div>
-                          <img class="img-fluid" src="Img/Designs/Design6.jpg" alt="..." />
-                      </a>
-                      <div class="gallery-caption">
-                          <div class="gallery-caption-heading">Compass</div>
-                          <div class="gallery-caption-subheading text-muted">OnePiece</div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+      <div class="content">
+        <h1>Lets Make A Story</h1>
+        <p>Lez Get Inked</p>
       </div>
-  </section>
-    <!-- Artist -->
-  
-    <section class="page-section bg-light" id="artist">
-    <div class="container">
-        <div class="text-center">
-            <h2 class="section-heading text-uppercase">Artist</h2>
-            <div class="col-lg-4">
-                <div class="artist">
-                    <img class="mx-auto rounded-circle" src="Img/Artist/Artist2.jpg" alt="..." />
-                    <h4>Jeremy Santander</h4>
-                    <p class="text-muted">Main Artist</p>
-                    <a href="https://www.facebook.com/jeremy.santander.73"><i class="fa-brands fa-facebook "></i></a>
-                </div>
+    </header>
+    <main>
+      <!-- Solutions -->
+      <section id="history" class="icons bg-dark"></section>
+      <section class="solutions flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="./Img/Artist/Artist.jpg" alt="People" />
             </div>
-            <!-- Contact -->
-            <section class="page-section" id="contact">
-                <div class="container">
-                    <div class="text-center">
-                        <h2 class="section-heading text-uppercase">Contact Us</h2>
-                        <h3 class="section-subheading text-muted">You may fill this To contact us.</h3>
-                    </div>
-            <form id="contact" data-sb-form-api-token="API_TOKEN">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                        </div>
-                        <div class="form-group mb-md-0">
-                           <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                        </div>
-                    </div>
-                </div>
-                    </div>
-                </div>
-                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-            </form>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-dark">
+              <h4>What is a tattoo?</h4>
+              <h2> </h2>
+              <p>
+                Tattoos are a form of body art that involve the insertion of ink or pigments into the skin's dermal layer to create permanent designs or images. They have been practiced for thousands of years and are culturally significant in many societies around the world
+              </p>
+              <h2>History and Techniques</h2>
+            <p>
+              Tattoos have a rich and diverse history. They have been found on mummies dating back to ancient Egypt (around 2000 BC) and have been a part of various indigenous cultures' traditions for centuries. Tattoos have served as symbols of status, identity, and spirituality in different societies.
+            </p>
+            <p>
+              Tattooing techniques have evolved over time. Traditional methods involve using needles attached to a handheld tool to manually puncture the skin and deposit ink. Modern tattoo machines use electromagnetic coils to drive needles rapidly in and out of the skin. Tattoo artists carefully control the depth, speed, and pressure to create precise designs.
+            </p>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <!-- Footer-->
-    <footer class="footer py-4">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
-                <div class="col-lg-4 my-3 my-lg-0">
-                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div class="col-lg-4 text-lg-end">
-                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
-                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
-                </div>
-            </div>
+      <!-- style -->
+      <section id="style" class="style flex-grid section-padding bg-dark">
+        <header class="section-header">
+          <h4>Tattoo Styles</h4>
+          <p>
+            There are numerous tattoo styles, each with its own characteristics
+          </p>
+        </header>
+        <div class="row">
+          <div class="column">
+            <a
+              href="./Img/Layout/Layout1.jpg"
+              data-lightbox="style"
+              data-title="Black and Gray: Tattoos created using only black ink or varying shades of gray for a more subdued, realistic look.
+            "
+            >
+              <img src="./Img/Layout/Layout2.jpg" alt="Case1"
+            /></a>
+            <a
+              href="./Img/Layout/Layout3.jpg"
+              data-lightbox="style"
+              data-title="Black and Gray: Tattoos created using only black ink or varying shades of gray for a more subdued, realistic look.
+            "
+              ><img src="./Img/Layout/Layout4.jpg" alt="Case2" />
+            </a>
+          </div>
+          <div class="column">
+            <a
+              href="./Img/Layout/Sketch1.jpg"
+              data-lightbox="style"
+              data-title="Japanese Traditional Sketch
+            "
+              ><img src="./Img/Layout/Sketch2.jpg" alt="Case3" />
+            </a>
+            <a
+              href="./Img/Layout/Sketch3.jpg"
+              data-lightbox="style"
+              data-title="Polynesian Traditional Sketch
+            "
+            >
+              <img src="./Img/Layout/Sketch4.jpg" alt="Case4"
+            /></a>
+          </div>
+          <div class="column">
+            <a
+              href="./Img/Layout/Minimalist1.jpg"
+              data-lightbox="style"
+              data-title="Minimalist Tattoo Designs
+            "
+            >
+              <img src="./Img/Layout/minimalist2.jpg" alt="Case5" />
+            </a>
+            <a
+              href="./Img/Layout/yakuza1.jpg"
+              data-lightbox="style"
+              data-title="Japanese Yakuza Designs
+            "
+            >
+              <img src="./Img/Layout/yakuza2.jpg" alt="Case6"
+            /></a>
+          </div>
+          <div class="column">
+            <a
+              href="./Img/Layout/Realistic1.jpg"
+              data-lightbox="style"
+              data-title="Realism: Tattoos that aim to replicate the look of photographs or real objects in intricate detail
+            "
+            >
+              <img src="./Img/Layout/realistic2.jpg" alt="Case5" />
+            </a>
+            <a
+              href="./Img/Layout/NeoClassical1.jpg"
+              data-lightbox="style"
+              data-title="Neo-traditional: A modern take on traditional styles with more intricate detailing and color palettes.
+            "
+            >
+              <img src="./Img/Layout/NeoClassical2.jpg" alt="Case6"
+            /></a>
+          </div>
+
         </div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery" class="gallery flex-columns flex-reverse">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <img src="./Img/Artist/Artist1.jpg" alt="gallery" />
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-dark">
+              <h2>Go to Gallery</h2>
+              <p>
+                Tattoos can hold significant meaning for the wearer. Common symbols include animals, religious or spiritual symbols, quotes, and portraits of loved ones. However, the meaning of a tattoo is highly personal and can vary widely from person to person.
+              </p>
+              <a href="gallery.html" class="btn btn-outline"
+                ><i class="fas fa-chevron-right"></i></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+      <section id="artist" class="artist section-padding bg-dark">
+        <header class="section-header">
+          <h2>Artist</h2>
+          <p>
+            Being a tattoo artist is a creative and rewarding career that involves creating permanent art on clients' skin. It requires a unique set of skills, including artistic talent, technical proficiency, and interpersonal abilities. 
+          </p>
+        </header>
+        <div class="flex-items">
+          <div>
+            <img src="./Img/Artist/Artist00.jpg" alt="Ejiemar" />
+            <h4>Ejiemar Loven Acedo</h4>
+            <p>Artist</p>
+          </div>
+          <div>
+            <img src="./Img/Artist/Artist2.jpg" alt="Jeremy" />
+            <h4>Jeremy Santander</h4>
+            <p>Main Artist</p>
+          </div>
+          <div>
+            <img src="./Img/Artist/Artist01.jpg" alt="Kevin" />
+            <h4>Kevin Alivio</h4>
+            <p>Artist</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- book Section -->
+      <section id="book" class="book flex-columns">
+        <div class="row">
+          <div class="column">
+            <div class="column-1">
+              <div class="wpb_map_wraper"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3529.5017086166745!2d-87.68812656028507!3d41.937026020282666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2166c9171418bc25!2sGoodkind+Tattoo!5e0!3m2!1sen!2sus!4v1531934054088" width="100%" height="580" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe></div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="column-2 bg-light">
+              <h2>Book Your Appointment Now</h2>
+              <form action="process.php" class="callback-form">
+                <div class="form-control">
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Enter name"
+                  />
+                </div>
+
+                <div class="form-control">
+                  <label for="email"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Enter email"
+                  />
+                </div>
+
+                <div class="form-control">
+                  <label for="phone"></label>
+                  <input
+                    type="text"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter phone"
+                  />
+                </div>
+                <input type="submit" value="Send" id="submit" class="btn" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark">
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+      </div>
+      <p>Copyright &copy; 2023 - Noblesse Tattoo</p>
     </footer>
-            <script src="https://kit.fontawesome.com/f5381e8981.js" crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/lightbox.min.js"></script>
+
+    <script>
+      const navbar = document.getElementById("navbar");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove("top");
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-70px)";
+          }
+          setTimeout(function () {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+
+      //Smooth Scrolling
+      $("#navbar a, .btn").on("click", function (e) {
+        if (this.hash !== "") {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $("html, body").animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800
+          );
+        }
+      });
+    </script>
+  </body>
 </html>
