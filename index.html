@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/utilities.css" />
     <title>Noblesse Tattoo</title>
-  </head>
+</head>
   <body id="home">
     <!-- Navbar and hero section -->
     <header class="hero">
@@ -171,7 +171,7 @@
       </section>
 
       <!-- Artist Section -->
-      <section id="artist" class="artist section-padding bg-light">
+      <section id="artist" class="artist section-padding bg-dark">
         <header class="section-header">
           <h2>Artist</h2>
           <p>
@@ -205,13 +205,13 @@
         <div class="row">
           <div class="column">
             <div class="column-1">
-              <div class="wpb_map_wraper"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3529.5017086166745!2d-87.68812656028507!3d41.937026020282666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2166c9171418bc25!2sGoodkind+Tattoo!5e0!3m2!1sen!2sus!4v1531934054088" width="100%" height="580" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe></div>
+              <div class="wpb_map_wraper"><iframe src="https://api.mapbox.com/styles/v1/yurilouvien/clmqyhfn901zn01rcfalucedn.html?title=view&access_token=pk.eyJ1IjoieXVyaWxvdXZpZW4iLCJhIjoiY2xtcXVmYTNnMDFjdzJqcjBlc3FzZXFkZCJ9._sGERxn0IaYyCz8383lQ5w&zoomwheel=true&fresh=true#16.74/8.207935/124.246095" width="100%" height="580" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe></div>
             </div>
           </div>
           <div class="column">
             <div class="column-2 bg-light">
               <h2>Book Your Appointment Now</h2>
-              <form action="process.php" class="callback-form">
+              <form action="process.php" class="book-form">
                 <div class="form-control">
                   <label for="name"></label>
                   <input
@@ -266,6 +266,17 @@
       referrerpolicy="no-referrer"
     ></script>
     <script src="./js/lightbox.min.js"></script>
+ <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoieXVyaWxvdXZpZW4iLCJhIjoiY2xtcXVmYTNnMDFjdzJqcjBlc3FzZXFkZCJ9._sGERxn0IaYyCz8383lQ5w";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/mapbox/streets-v11",
+        center: [121.04543, 14.545728],
+        zoom: 18,
+      });
+    </script>
+    
 
     <script>
       const navbar = document.getElementById("navbar");
